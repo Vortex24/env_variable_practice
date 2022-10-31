@@ -1,13 +1,12 @@
 {
   "name": "secrets---starting-code",
   "version": "1.0.0",
-  "description": "",
+  "description": "Secrets App",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Vortex",
   "license": "ISC",
   "engines": {
     "node": "16.8.0",
