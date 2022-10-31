@@ -223,6 +223,6 @@ app.post("/register", function(req, res){
 
 
 
-app.listen(3000, function(req, res){
+app.listen(process.env.port || 3000, function(req, res){
     console.log("Server is up and running...");
 });
