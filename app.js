@@ -153,7 +153,7 @@ app.get("/submit", function(req, res){
 });
 
 app.post("/submit", function(req, res){
-    User.findById(req.user.id, function(err, result){
+    User.findById(req.user._id, function(err, result){
         if (!err)
         {
             if (result)
